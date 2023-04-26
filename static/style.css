@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alkatra&display=swap');
+* {
+    font-family: 'Alkatra', cursive;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background: #1f2833;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.Mcheader{
+    background-color: rgb(169, 166, 179);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+  
+}
+.menu  a{
+    padding-left: 90px;
+   
+    
+
+}
+.menu i{
+    padding-left: 90px;
+}
+
+
+.logo img{
+    width: 150px;
+   
+    justify-content: flex-start;
+}
+a {
+    font-size: 25px;
+    color: rgb(12, 12, 12);
+    
+}
+i{
+    color: rgb(19, 19, 19);
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
+    color: aliceblue;
+}
+form{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(90, 90, 155);
+    border-radius: 5px;
+   
+    
+}
+form input{
+    font-size: 20px;
+}
+.dropbox{
+    padding-left: 350px;
+    padding-right: 350px;
+    border: 2px solid #1f2833;
+}
+footer{
+    background-color: rgb(169, 166, 179);
+    padding-top: 100px;
+    text-align: center;
+}
+.file button{
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    background-color: #70a3e2;
+    border: #70a3e2;
+}
+.image{
+    margin-left: 430px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.image img{
+    width: 500px;
+    
+}

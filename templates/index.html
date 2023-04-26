@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadX Converter</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!--header-->
+    <div class="Mcheader">
+        <div class="logo">
+            <img src="/static/madx-high-resolution-color-logo.png" alt="MadX">
+        </div>
+        <!--menu-->
+        <div class="menu">
+            
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Contact</a>
+                
+           
+            <i class="ri-menu-line"></i>
+            
+        </div> 
+    </div>
+      
+    <div class="file">
+        <h1>
+            Choose your PDF file
+        </h1><br><br><br>
+        <div class="dropbox">
+            <form action="/index" method="POST" enctype="multipart/form-data">
+                <input type="file" name="filename" id="inp" style="cursor:pointer;"> <br><br><br>
+                <input class="btn btn-outline-success" type="submit" value="Upload" >
+            </form>
+        </div>
+    </div><br><br>
+    <footer>
+        <p>© 2023 MadX Converter</p>
+    </footer>
+
+
+
+</body>
+</html>
